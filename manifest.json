@@ -1,0 +1,32 @@
+{
+	"name": "CSGO Stats",
+	"description": "Ligma",
+	"version": "0.69",
+	"permissions": [ "scripting" ],
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": [ "https://steamcommunity.com/*" ],
+			"js": [ "libs/jquery.min.js", "index.js" ],
+			"css": [ "styles.css" ]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"src/*",
+				"stats_display.html",
+				"loading.html"
+			],
+			"matches": [ "https://steamcommunity.com/*" ]
+		}
+	],
+	"action": {
+		"default_popup": "src/popups/index.html"
+	},
+	"minimum_chrome_version": "92",
+	"content_security_policy": {
+		"script-src": "self"
+	}
+}
+

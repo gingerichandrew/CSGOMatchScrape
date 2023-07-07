@@ -1,7 +1,7 @@
 {
 	"name": "CSGO Stats",
-	"description": "Ligma",
-	"version": "0.69",
+	"description": "CS Webscrape",
+	"version": "0.12",
 	"permissions": [ "scripting" ],
 	"manifest_version": 3,
 	"content_scripts": [

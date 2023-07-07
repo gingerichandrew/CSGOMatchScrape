@@ -1,0 +1,2 @@
+C:\Users\andre\source\repos\CSStatExt\CSStatExt\obj\Debug\CSStatExt.njsproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\CSStatExt\CSStatExt\bin\Microsoft.NodejsTools.WebRole.dll
